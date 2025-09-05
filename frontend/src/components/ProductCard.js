@@ -358,12 +358,12 @@ const StyledWrapper = styled.div`
     border-radius: 8px !important; 
     overflow: hidden !important; 
     height: 32px !important; 
-    width: 48px !important; 
+    width: 50px !important; 
     display: inline-block !important; 
     transition: all 0.2s ease-in-out !important;
     cursor: pointer !important;
     border: none !important;
-    background-size: contain !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
   }

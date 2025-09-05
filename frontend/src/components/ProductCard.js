@@ -327,7 +327,7 @@ const StyledWrapper = styled.div`
   .card .content .color-size-container .colors .colors-container .payment-card.google .real-icon:hover {
     transform: translateY(-2px) scale(1.05) !important;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.15) !important;
-    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    border: none !important;
   }
   
   /* Active/pressed effects */

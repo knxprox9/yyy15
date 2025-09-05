@@ -296,12 +296,12 @@ const StyledWrapper = styled.div`
     border-radius: 6px !important; 
     overflow: hidden !important; 
     height: 24px !important; 
-    width: 36px !important; 
+    width: 38px !important; 
     display: inline-block !important; 
     transition: all 0.2s ease-in-out !important;
     cursor: pointer !important;
     border: none !important;
-    background-size: contain !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
   }

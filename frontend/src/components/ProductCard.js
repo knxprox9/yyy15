@@ -220,14 +220,27 @@ const StyledWrapper = styled.div`
   .mini-overlay .colors-container { margin-top: 0; }
 
   /* Same button style but as grid inside overlay */
-  .mini-overlay .colors-container { list-style-type: none; display: grid; grid-template-columns: repeat(4, 46px); gap: 10px 10px; justify-content: center; justify-items: center; align-items: start; font-size: 0.5rem; margin: 0; padding: 0; width: 100%; max-width: 216px; }
+  .mini-overlay .colors-container { list-style-type: none; display: grid; grid-template-columns: repeat(4, 50px); gap: 10px 10px; justify-content: center; justify-items: center; align-items: start; font-size: 0.5rem; margin: 0; padding: 0; width: 100%; max-width: 240px; }
 
   .mini-overlay .payment-card { position: relative; cursor: pointer; transition: transform 0.2s ease; width: 56px; display: flex; flex-direction: column; align-items: center; gap: 0.15rem; }
-  .mini-overlay .payment-card:hover { transform: scale(1.1); }
+  .mini-overlay .payment-card:hover { transform: scale(1.05); }
   .mini-overlay .payment-card .label-text { font-size: 0.48rem; color: #6b7280; font-weight: 700; line-height: 1; text-align: center; }
-  .mini-overlay .payment-card .card-icon.real-icon { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: white; padding: 0; border-radius: 8px; overflow: hidden; }
+  .mini-overlay .payment-card .card-icon.real-icon { 
+    width: 50px !important; 
+    height: 32px !important; 
+    display: inline-flex !important; 
+    align-items: center !important; 
+    justify-content: center !important; 
+    background: transparent !important; 
+    padding: 3px !important; 
+    border-radius: 6px !important; 
+    overflow: visible !important;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1) !important;
+    border: none !important;
+    transition: all 0.2s ease-in-out !important;
+  }
   .mini-overlay .payment-card .card-icon.real-icon svg,
-  .mini-overlay .payment-card .card-icon.real-icon img { width: 22px; height: 22px; transform: scale(1.25); transform-origin: center; }
+  .mini-overlay .payment-card .card-icon.real-icon img { width: 26px; height: 26px; transform: scale(1.0); transform-origin: center; }
 
   .card .image-container { position: relative; width: 100%; height: 130px; border-radius: 0.7rem; border-top-left-radius: 4rem; margin-bottom: 1rem; /* لا نخفي أي جزء من الزر */ overflow: visible; }
   .card .image-container .icon-image { filter: drop-shadow(0 0 0 rgba(0,0,0,0)); mix-blend-mode: normal; opacity: 0.95; }

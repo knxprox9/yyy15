@@ -399,13 +399,10 @@ const StyledWrapper = styled.div`
     background-image: url('/assets/googleplay-new.png') !important;
   }
   
-  /* Mini overlay hover effects */
-  .mini-overlay .payment-card.visa .card-icon.real-icon:hover,
-  .mini-overlay .payment-card.mastercard .card-icon.real-icon:hover,
-  .mini-overlay .payment-card.itunes .card-icon.real-icon:hover,
-  .mini-overlay .payment-card.google .card-icon.real-icon:hover {
-    transform: translateY(-3px) scale(1.08) !important;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.15) !important;
+  /* Mini overlay hover effects - جميع الأيقونات */
+  .mini-overlay .payment-card .card-icon.real-icon:hover {
+    transform: translateY(-2px) scale(1.05) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.15) !important;
     border: none !important;
   }
   

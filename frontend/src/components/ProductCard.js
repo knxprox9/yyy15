@@ -389,7 +389,7 @@ const StyledWrapper = styled.div`
   .mini-overlay .payment-card.google .card-icon.real-icon:hover {
     transform: translateY(-3px) scale(1.08) !important;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.15) !important;
-    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    border: none !important;
   }
   
   /* Mini overlay active effects */

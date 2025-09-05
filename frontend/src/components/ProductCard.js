@@ -406,11 +406,8 @@ const StyledWrapper = styled.div`
     border: none !important;
   }
   
-  /* Mini overlay active effects */
-  .mini-overlay .payment-card.visa .card-icon.real-icon:active,
-  .mini-overlay .payment-card.mastercard .card-icon.real-icon:active,
-  .mini-overlay .payment-card.itunes .card-icon.real-icon:active,
-  .mini-overlay .payment-card.google .card-icon.real-icon:active {
+  /* Mini overlay active effects - جميع الأيقونات */
+  .mini-overlay .payment-card .card-icon.real-icon:active {
     transform: translateY(1px) scale(0.95) !important;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15) !important;
   }

@@ -289,19 +289,21 @@ const StyledWrapper = styled.div`
   .card .content .color-size-container .colors .colors-container .payment-card.mastercard .real-icon,
   .card .content .color-size-container .colors .colors-container .payment-card.itunes .real-icon,
   .card .content .color-size-container .colors .colors-container .payment-card.google .real-icon { 
-    padding: 0 !important; 
+    padding: 2px !important; 
     margin: 0 !important; 
     background: transparent !important; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1) !important; 
-    border-radius: 6px !important; 
-    overflow: hidden !important; 
+    border-radius: 4px !important; 
+    overflow: visible !important; 
     height: 24px !important; 
     width: 38px !important; 
-    display: inline-block !important; 
+    display: inline-flex !important; 
+    align-items: center !important;
+    justify-content: center !important;
     transition: all 0.2s ease-in-out !important;
     cursor: pointer !important;
     border: none !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
   }

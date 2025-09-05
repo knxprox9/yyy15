@@ -291,7 +291,7 @@ const StyledWrapper = styled.div`
   .card .content .color-size-container .colors .colors-container .payment-card.google .real-icon { 
     padding: 0 !important; 
     margin: 0 !important; 
-    background: #ffffff !important; 
+    background: transparent !important; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1) !important; 
     border-radius: 6px !important; 
     overflow: hidden !important; 
@@ -300,7 +300,7 @@ const StyledWrapper = styled.div`
     display: inline-block !important; 
     transition: all 0.2s ease-in-out !important;
     cursor: pointer !important;
-    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    border: none !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
